@@ -58,6 +58,11 @@ main {
     border-bottom: 4px solid #acacac;
 }
 
+.img-moldura{
+    z-index: 0;
+    width: 35vw;
+}
+
 .skills{
     width: 85vw; 
     margin: auto;
@@ -142,3 +147,5 @@ h3{
         border-color: #bbb;
     }
 }
+
+
