@@ -9,6 +9,10 @@ body {
     background-image: linear-gradient(to bottom, #000, #0d0000, #000);
 }
 
+img, a{
+    user-select: none;
+}
+
 main {
     display: flex;
     justify-content: center;
