@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+@font-face {
+    font-family: "Brigends";
+    src: url("../font/PeckhamPress-Trial.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Octosquare";
+    src: url("../font/TT\ Octosquares\ Trial\ Black.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    color: #ffffffb8;
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    background-color: #00000000 !important;
+    width: 100vw;
+    position: absolute;
+    font-weight: bold !important;
+    z-index: 999;
+}
+.logo {
+    margin: 15px;
+}
+.logo img {
+    width: 200px;
+}
+.introduction {
+    height: 80%;
+}
+.introduction h1 {
+    font-family: Brigends;
+    font-size: 4rem;
+}
+.introduction p {
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+.typing {
+    margin-top: 10vh;
+    font-family: Octosquare !important;
+}
+.text-container {
+    width: 45vw;
+}
+.midia-content {
+    width: 50vw;
+}
+.midia-content img {
+    width: 67vw;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .introduction h1 {
+        font-size: 3rem;
+    }
+    .text-container, .midia-content {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .introduction h1 {
+        font-size: 2.5rem;
+    }
+    .text-container, .midia-content {
+        width: 70vw;
+    }
+    .midia-content img {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column-reverse;
+        padding-top: 10vh;
+    }
+    .introduction h1 {
+        font-size: 2rem;
+    }
+    .logo img {
+        width: 150px;
+    }
+    .text-container, .midia-content {
+        width: 90vw;
+    }
+    .text-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .midia-content{
+        display: flex;
+    }
+    .midia-content img {
+        box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+        border-radius: 100%;
+        margin: auto;
+        width: 70vw !important;
+        height: 70vw !important;
+        object-fit: cover;
+    }
+    .typing{
+        font-size: 0.8rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .introduction h1 {
+        font-size: 1.5rem;
+    }
+    .typing {
+        margin-top: 5vh;
+    }
+    .logo img {
+        width: 120px;
+    }
+    .text-container, .midia-content {
+        width: 95vw;
+    }
+    .midia-content img {
+        width: 100vw;
+    }
+}

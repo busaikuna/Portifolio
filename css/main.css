@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: linear-gradient(to bottom, #000, #0d0000, #000);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20vh;
+}
+
+.transparent-division {
+    position: absolute;
+    top: 82%;
+    background-image: linear-gradient(to top, #000, #00000000);
+    width: 100vw;
+    height: 20vh;
+}
+
+.info-me-container {
+    gap: 50px;
+    margin-bottom: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sobre-mim {
+    width: 85vw;
+    margin: auto;
+    margin-bottom: 30vh;
+}
+
+.sobre-mim p {
+    font-size: 1.2rem;
+}
+
+.sobre-mim h1 {
+    margin-bottom: 7vh;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sobre-mim span {
+    border-bottom: 4px solid #acacac;
+}
+
+.img-moldura {
+    z-index: 0;
+    width: 35vw;
+}
+
+.skills {
+    width: 85vw;
+    margin: auto;
+}
+
+.skills h1 {
+    margin-bottom: 7vh;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.skills span {
+    border-bottom: 4px solid #acacac;
+}
+
+.skills p {
+    font-size: 1.2rem;
+}
+
+.skills-tech {
+    margin: auto;
+    margin-bottom: 35px;
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-tech li {
+    transition: all 1s;
+    text-align: center;
+    width: 15vw;
+    cursor: pointer;
+}
+
+.skills-tech li:hover {
+    border: 1px solid #818181;
+}
+
+.typing-container {
+    color: #bbb;
+    white-space: nowrap;
+    border-right: 3px solid #bbb;
+    overflow: hidden;
+}
+
+.container-skills {
+    margin: auto;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-skill {
+    width: 10vw;
+    height: 10vw;
+    background-color: #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-skill img {
+    width: 50%;
+}
+
+h3 {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+@keyframes blink {
+    0%, 50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: #bbb;
+    }
+}
+
+#projetos {
+    margin: auto;
+    margin-top: 30vh;
+    width: 85vw;
+}
+
+.description-projects p {
+    font-size: 1.2rem;
+}
+
+.description-projects h1 {
+    margin-bottom: 7vh;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.description-projects span {
+    border-bottom: 4px solid #acacac;
+}
+
+.card-project {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0000002d;
+    backdrop-filter: blur(40px);
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+}
+
+.icon-img {
+    width: 25px !important;
+    margin-right: 10px;
+}
+
+.card-project img {
+    width: 30%;
+}
+
+.card-project a {
+    width: 50%;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.more-projects {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    background: #000000b6;
+    backdrop-filter: blur(30px);
+    margin-left: 13.5%;
+    margin-top: 5vh;
+    position: absolute;
+    width: 60vw;
+    height: 10vh;
+    transition: all 1s;
+    padding: 0;
+}
+
+.more-projects:hover {
+    height: 12vh;
+}
+
+.skill-select {
+    background: transparent;
+    color: #fff;
+    outline: none;
+    border: 1px solid #fff;
+    margin-bottom: 2vh;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.skill-select option {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: none;
+}
+
+#contato{
+    margin-top: 35vh;
+}
+
+#description-contato {
+    width: 85vw;
+    margin: auto;
+}
+
+#description-contato p {
+    font-size: 1.2rem;
+}
+
+#description-contato h1 {
+    margin-bottom: 7vh;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#description-contato span {
+    border-bottom: 4px solid #acacac ;
+}
+.redes{
+    margin-top: 5vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: auto;
+}
+.redes img{
+    width: 15vw !important;
+}
+.redes a{
+    cursor: pointer;
+    padding: 20px 30px;
+    background: none;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+}
+
+@media (max-width: 1024px) {
+    .img-moldura {
+        width: 50vw;
+    }
+    .card-skill {
+        width: 15vw;
+        height: 15vw;
+    }
+    .card-project {
+        flex-direction: column;
+        width: 90vw;
+    }
+    .skills-tech li {
+        width: 20vw;
+    }
+}
+
+@media (max-width: 768px) {
+    #contato{
+        margin-top: 25vh;
+    }
+    .redes{
+        margin-top: 7vh;
+    }
+    .redes img{
+        width: 10vw;
+    }
+    .redes a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+    }
+    .logo{
+        width: 30vw !important;
+    }
+    .card-img-top{
+        margin: auto;
+        width: 70vw !important;
+    }
+    main {
+        padding-top: 10vh;
+    }
+    .img-moldura {
+        width: 60vw;
+    }
+    .info-me-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .card-skill {
+        width: 25vw;
+        height: 25vw;
+    }
+    .skills-tech {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-skills {
+        width: 90vw;
+        gap: 20px;
+    }
+    .btns-projects a{
+        width: 60vw;
+    }
+    .more-projects{
+        margin: 10vw;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 0.9rem;
+    }
+    .sobre-mim h1, .skills h1, .description-projects h1 {
+        font-size: 1.5rem;
+    }
+    .sobre-mim p, .skills p, .description-projects p {
+        font-size: 1rem;
+    }
+    .card-skill {
+        width: 40vw;
+        height: 40vw;
+    }
+    .more-projects {
+        font-size: 1.2rem;
+        width: 70vw;
+        height: 8vh;
+    }
+}
+footer{
+    font-size: 1.5rem;
+    margin-top: 10vh;
+    width: 100vw;
+    text-align: center;
+    height: 10vh;
+}
